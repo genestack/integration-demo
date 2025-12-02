@@ -3,6 +3,8 @@
 Working with templates
 
 1. Prepare the SRL-Core-Default-Template.json file
+Note: For training purposes, only make edits on line [17]
+
 2. Prepare the path file, named as path-template.json
 3. Run the script
 

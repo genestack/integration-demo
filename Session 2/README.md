@@ -23,4 +23,15 @@ During this session, participants will work with the Genestack SDK to import dat
   - Importing and managing custom ontologies
   - Extending metadata schemas
   - Working with hierarchical vocabularies
+ 
+
+### **Support**
+
+For any questions related to these materials or the training session, please contact:
+
+Sharon Ruiz-Lopez
+  
+Field Application Scientist, Genestack
+
+sharon.ruiz.lopez@genestack.com
 

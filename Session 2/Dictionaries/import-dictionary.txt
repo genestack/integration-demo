@@ -1,0 +1,20 @@
+Import a dictionary
+
+
+1. Prepare the file: file path-to-dictionary.json
+
+Feel free to add any of the available dictionaries created for the training sessions:
+R&D Phase: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/RD_Phase.csv   
+Information Classification: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/information_classification.csv  
+Regulatory Region: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/Regulatory_Region.csv  
+
+
+2. Customise the name of the dictionary
+
+Important: Add an identifier to recognise the dictionary you are importing. If the name is the same, the file will be replaced
+
+
+3. Prepare and run the script
+
+odm-update-dictionary -H https://integration-demo.trial.genestack.com --file_with_dictionaries path_to_dictionary.json --token [YourToken]
+

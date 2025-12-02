@@ -1,0 +1,7 @@
+[
+    {
+        "name": "SRL-R&D Phase",
+        "url": "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/RD_Phase.csv",
+        "description": "This dictionary classifies datasets based on the stage of drug development"
+    }
+]

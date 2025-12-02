@@ -1,0 +1,23 @@
+
+Import a Study
+
+odm-import-data \
+--server "https://integration-demo.trial.genestack.com/" \
+--token "[YourToken]" \
+--study "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/study.tsv" \
+--samples "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/samples.tsv" \
+--expression "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/gene_counts_matrix.tsv" \
+--number-of-feature-attributes "1" \
+--data-class "Bulk transcriptomics" \
+--expression-metadata "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/data-metadata.tsv" \
+--allow-duplicates 
+
+
+
+
+Validation
+Note: you need to include the study accession number, located in the Study tab (GSFXXXX)
+
+/api/v1/as-curator/integration/studies/{id}/validation-summary 
+Link: https://novonordisk.odm.genestack.com/swagger/?urls.primaryName=integrationCurator#/Validation%20summary%20as%20Curator/getStudyValidationSummary
+

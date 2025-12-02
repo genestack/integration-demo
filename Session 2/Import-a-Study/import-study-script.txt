@@ -19,5 +19,5 @@ Validation
 Note: you need to include the study accession number, located in the Study tab (GSFXXXX)
 
 /api/v1/as-curator/integration/studies/{id}/validation-summary 
-Link: https://novonordisk.odm.genestack.com/swagger/?urls.primaryName=integrationCurator#/Validation%20summary%20as%20Curator/getStudyValidationSummary
+Link: https://integration-demo.trial.genestack.com/swagger/?urls.primaryName=integrationCurator#/Validation%20summary%20as%20Curator/getStudyValidationSummary
 

@@ -1,0 +1,33 @@
+[
+    {
+        "object_type": "study",
+        "raw_keys": ["Data Classification"],
+        "genestack_key": "Information Classification"
+    },
+    {
+        "object_type": "sample",
+        "raw_keys": ["Species"], 
+        "genestack_key": "Organism",
+        "dictionary": "NCBI Taxonomy"
+    },
+    {
+        "object_type": "sample",
+        "raw_keys": ["Sex", "Gender"],
+        "genestack_key": "Sex",
+        "dictionary": "Human Biological Sex"
+    },
+    {
+        "object_type": "sample",
+        "raw_keys": ["Disease"],
+        "genestack_key": "Disease",
+        "dictionary": "Disease Ontology Extended"
+    },
+    {
+     "object_type": "sample",
+        "raw_keys": ["Tissue"],
+        "genestack_key": "Tissue",
+        "rules": {
+            "Liver": "liver"
+        }
+    }
+]

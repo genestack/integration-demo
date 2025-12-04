@@ -2,7 +2,7 @@
 Import a Study
 
 odm-import-data \
---server "https://integration-demo.trial.genestack.com/" \
+--server "https://q001-demo.trial.genestack.com/" \
 --token "[YourToken]" \
 --study "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/study.tsv" \
 --samples "https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/GSE126848/samples.tsv" \
@@ -19,5 +19,4 @@ Validation
 Note: you need to include the study accession number, located in the Study tab (GSFXXXX)
 
 /api/v1/as-curator/integration/studies/{id}/validation-summary 
-Link: https://integration-demo.trial.genestack.com/swagger/?urls.primaryName=integrationCurator#/Validation%20summary%20as%20Curator/getStudyValidationSummary
-
+Link: https://q001-demo.trial.genestack.com/swagger/?urls.primaryName=integrationCurator#/Validation%20summary%20as%20Curator/getStudyValidationSummary

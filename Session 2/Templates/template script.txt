@@ -12,4 +12,4 @@ Note: For training purposes, only make edits on line [17]
 Script
 
 
-odm-update-template -H https://integration-demo.trial.genestack.com/ path-template.json --token [YourToken]
+odm-update-template -H https://q001-demo.trial.genestack.com/ path-template.json --token [YourToken]

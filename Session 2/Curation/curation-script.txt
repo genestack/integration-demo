@@ -2,4 +2,4 @@ From the file “rules for curation.json”
 
 Script:
 
-odm-curate-study -H https://integration-demo.trial.genestack.com/ GSFXXXXXX --rules rules_for_curation.json --overwrite --token [YourToken]
+odm-curate-study -H ttps://q001-demo.trial.genestack.com/ GSFXXXXXX --rules rules_for_curation.json --overwrite --token [YourToken]

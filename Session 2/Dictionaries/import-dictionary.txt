@@ -16,5 +16,5 @@ Important: Add an identifier to recognise the dictionary you are importing. If t
 
 3. Prepare and run the script
 
-odm-update-dictionary -H ttps://q001-demo.trial.genestack.com --file_with_dictionaries path_to_dictionary.json --token [YourToken]
+odm-update-dictionary -H https://q001-demo.trial.genestack.com --file_with_dictionaries path_to_dictionary.json --token [YourToken]
 

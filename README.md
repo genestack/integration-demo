@@ -7,9 +7,9 @@ This repository contains datasets, templates, and Jupyter notebooks for all four
 | Session | Topic | Date |
 |---------|-------|------|
 | 1 | ODM Essentials (GUI) | 3 Dec 2025 12 PM EST |
-| 2 | API Training: Curation Workflows & Ontologies | 5 Dec 2025 9 AM EST |
-| 3 | API Training: Multi-Omics Data Analysis | 10 Dec 2025 9 AM EST |
-| 4 | API Training: Single-Cell RNA-seq Analysis | 12 Dec 2025 9 AM EST |
+| 2 | API Training: Curation Workflows & Ontologies | TBC |
+| 3 | API Training: Multi-Omics Data Analysis | TBC |
+| 4 | API Training: Single-Cell RNA-seq Analysis | TBC |
 
 
 ### Support

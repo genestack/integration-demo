@@ -19,6 +19,10 @@ It explains:
 - where to insert your API token,
 - how to run the import command.
 
+**Note:**
+Dictionaries must be imported using a **root-level** token.
+Only dictionaries imported with elevated permissions can be recognised via SDKs and used in automated template imports.
+
 ---
 
 ### **path_to_dictionary.json**
@@ -43,7 +47,7 @@ You will pick one of these during the exercise.
 
 ---
 
-## ✔️ Before You Begin
+## Before You Begin
 - Ensure your study is imported and curated up to Step 2  
 - Confirm your API token  
 - Check that the Genestack SDK is installed  

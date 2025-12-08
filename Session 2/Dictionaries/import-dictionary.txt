@@ -1,20 +1,34 @@
 Import a dictionary
 
 
-1. Prepare the file: file path-to-dictionary.json
+1. Prepare the Dictionary file
 
-Feel free to add any of the available dictionaries created for the training sessions:
-R&D Phase: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/RD_Phase.csv   
-Information Classification: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/information_classification.csv  
-Regulatory Region: https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/Regulatory_Region.csv  
+Use a JSON file structured like path-to-dictionary.json.
+You may choose any of the dictionaries prepared for this training session:
+
+R&D Phase
+https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/RD_Phase.csv
+
+Information Classification
+https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/information_classification.csv
+
+Regulatory Region
+https://bio-test-data.s3.us-east-1.amazonaws.com/Training-Session-SRL/Dictionaries/Regulatory_Region.csv 
 
 
 2. Customise the name of the dictionary
 
-Important: Add an identifier to recognise the dictionary you are importing. If the name is the same, the file will be replaced
+Add a unique identifier to the dictionary name so it can be clearly recognised later.
+
+Important:
+If you reuse an existing dictionary name, the old dictionary will be replaced.
 
 
 3. Prepare and run the script
+Dictionary imports must be performed using a root-level token, as only dictionaries imported with elevated permissions can be recognised via SDKs and used in template import scripts.
 
-odm-update-dictionary -H https://q001-demo.trial.genestack.com --file_with_dictionaries path_to_dictionary.json --token [YourToken]
+Run:
+odm-update-dictionary -H https://q001-demo.trial.genestack.com --file_with_dictionaries path_to_dictionary.json --token [PublicToken]
+
+Note: For security reasons, the public token is not displayed here, instead, will be shared during the training session
 

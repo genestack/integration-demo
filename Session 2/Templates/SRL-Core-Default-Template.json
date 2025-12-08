@@ -17,10 +17,10 @@
     "dataType": "study",
     "isRequired": true,
     "metainfoType": "com.genestack.api.metainfo.StringValue",
-    "name": "SRL Classification",
+    "name": "[YourSelectedName]",
     "isReadOnly": false,
-    "dictionaryName": "SRL-RD Phase",
-    "description": "R&D Phase of the study"
+    "dictionaryName": "[YourDictionary]",
+    "description": "[YourDescription]"
   },
   {
     "dataType": "study",

@@ -14,12 +14,13 @@
     "isReadOnly": false
   },
   {
-   "dictionaryName": "-The name of your dictionary-",
     "dataType": "study",
     "isRequired": true,
     "metainfoType": "com.genestack.api.metainfo.StringValue",
     "name": "SRL Classification",
-    "isReadOnly": false
+    "isReadOnly": false,
+    "dictionaryName": "SRL-RD Phase",
+    "description": "R&D Phase of the study"
   },
   {
     "dataType": "study",

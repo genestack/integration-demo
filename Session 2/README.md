@@ -16,13 +16,14 @@ During this session, participants will work with the Genestack SDK to import dat
 - Curation Workflows
   - Validate metadata programmatically
   - Data curation through SDKs
-- Templates II
-  - Downloading, renaming, and customising templates in the GUI
-  - Importing templates via SDKs
 - Ontologies & Dictionaries
   - Importing and managing custom ontologies
   - Extending metadata schemas
   - Working with hierarchical vocabularies
+- Templates II
+  - Downloading, renaming, and customising templates in the GUI
+  - Importing templates via SDKs
+
  
 
 ### **Support**

@@ -69,3 +69,8 @@ Summary: SDK for interacting with the Open Data Manager
 ```
 
 If errors appear, the installation may not have completed correctly.
+
+## Additional Resources
+
+For more detailed instructions and troubleshooting, please review the user guide at:  
+https://q001-demo.trial.genestack.com/user-docs/tools/odm-sdk/installation/
